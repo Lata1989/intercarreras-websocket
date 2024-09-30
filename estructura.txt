@@ -1,0 +1,8 @@
+/websocket
+├── /config
+│   └── dbConfig.js           # Conexión a MongoDB
+├── websocketServer.js         # Servidor WebSocket que recibe datos de MQTT
+├── mqttClient.js              # Cliente MQTT para suscribirse a un topic
+├── index.js                   # Archivo principal del servidor WebSocket
+├── package.json               # Dependencias del backend de WebSocket
+└── .env                       # Variables de entorno
